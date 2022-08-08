@@ -87,7 +87,8 @@ BldgType_Twnhs, BldgType_Duplex, Condition1_PosN have a negative impact on SaleP
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-This project was inspired by Linear Regression Assignment as part of Data Science course. This project was based on: https://learn.upgrad.com/course/1991/segment/25160/150983/463809/2405074
+This project was inspired by Linear Regression Assignment as part of Data Science course. <br>
+This project was based on: https://learn.upgrad.com/course/1991/segment/25160/150983/463809/2405074
 
 ## Contact
 Created by [@rahul2july] - feel free to contact me! <br>
