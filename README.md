@@ -42,35 +42,35 @@ Dateset could be found here: https://github.com/rahul2july/housingpricepredictio
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-In summary, for ridge:
--the best hyperparameter alpha is 7.0
--r-squared train = 0.8507, r-squared test: 0.8545.
--There is slight improvement in r-squared test when compared to linear regression.
--Top 5 features defining "SalePrice" are:
-    -Fence_GdWo
-    -GarageType_N.A
-    -YearBuilt_diff
-    -OverallCond
-    -LotFrontage
+In summary, for ridge: <br>
+-the best hyperparameter alpha is 7.0 <br>
+-r-squared train = 0.8507, r-squared test: 0.8545 <br>
+-There is slight improvement in r-squared test when compared to linear regression. <br>
+-Top 5 features defining "SalePrice" are: <br>
+    -Fence_GdWo <br>
+    -GarageType_N.A <br>
+    -YearBuilt_diff <br>
+    -OverallCond <br>
+    -LotFrontage <br>
     
-In summary, for lasso:
--the best hyperparameter alpha is 0.001
--r-squared train = 0.8512, r-squared test: 0.8533.
--There is slight improvement in r-squared test when compared to linear regression.
--Top 5 features defining "SalePrice" are:
-    -Fence_GdWo
-    -GarageType_N.A.
-    -YearBuilt_diff
-    -OverallCond
-    -LotFrontage
+In summary, for lasso: <br>
+-the best hyperparameter alpha is 0.001 <br>
+-r-squared train = 0.8512, r-squared test: 0.8533 <br>
+-There is slight improvement in r-squared test when compared to linear regression. <br>
+-Top 5 features defining "SalePrice" are: <br>
+    -Fence_GdWo <br>
+    -GarageType_N.A. <br>
+    -YearBuilt_diff <br>
+    -OverallCond <br>
+    -LotFrontage <br>
     
-- RSS is very close for all the three models [linear regression, ridge regression and lasso regression].
-We could see that Lasso seems to be performing a little better out of the three models wrt. mse.
-Since Lasso will penalize more on the dataset and can also help in feature elimination hence we are going to consider that as my final model.
+- RSS is very close for all the three models [linear regression, ridge regression and lasso regression]. <br>
+We could see that Lasso seems to be performing a little better out of the three models wrt. mse. <br>
+Since Lasso will penalize more on the dataset and can also help in feature elimination hence we are going to consider that as my final model. <br>
 
-- Looking at the coefficients, we could conclude that features like:
-OverallQual, GrLivArea, SaleType_New etc. have a positive impact on SalePrice.
-BldgType_Twnhs, BldgType_Duplex, Condition1_PosN have a negative impact on SalePrice.
+- Looking at the coefficients, we could conclude that features like: <br>
+OverallQual, GrLivArea, SaleType_New etc. have a positive impact on SalePrice. <br>
+BldgType_Twnhs, BldgType_Duplex, Condition1_PosN have a negative impact on SalePrice. <br>
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -90,7 +90,7 @@ BldgType_Twnhs, BldgType_Duplex, Condition1_PosN have a negative impact on SaleP
 This project was inspired by Linear Regression Assignment as part of Data Science course. This project was based on: https://learn.upgrad.com/course/1991/segment/25160/150983/463809/2405074
 
 ## Contact
-Created by [@rahul2july] - feel free to contact me!
+Created by [@rahul2july] - feel free to contact me! <br>
 
 Contributor -Rahul Gupta
 
