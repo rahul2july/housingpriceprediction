@@ -42,7 +42,7 @@ Dateset could be found here: https://github.com/rahul2july/housingpricepredictio
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-In summary, for ridge: <br>
+- In summary, for ridge: <br>
 -the best hyperparameter alpha is 7.0 <br>
 -r-squared train = 0.8507, r-squared test: 0.8545 <br>
 -There is slight improvement in r-squared test when compared to linear regression. <br>
@@ -53,7 +53,7 @@ In summary, for ridge: <br>
     -OverallCond <br>
     -LotFrontage <br>
     
-In summary, for lasso: <br>
+- In summary, for lasso: <br>
 -the best hyperparameter alpha is 0.001 <br>
 -r-squared train = 0.8512, r-squared test: 0.8533 <br>
 -There is slight improvement in r-squared test when compared to linear regression. <br>
