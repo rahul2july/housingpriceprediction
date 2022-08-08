@@ -42,22 +42,47 @@ Dateset could be found here: https://github.com/rahul2july/housingpricepredictio
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+In summary, for ridge:
+-the best hyperparameter alpha is 7.0
+-r-squared train = 0.8507, r-squared test: 0.8545.
+-There is slight improvement in r-squared test when compared to linear regression.
+-Top 5 features defining "SalePrice" are:
+    -Fence_GdWo
+    -GarageType_N.A
+    -YearBuilt_diff
+    -OverallCond
+    -LotFrontage
+    
+In summary, for lasso:
+-the best hyperparameter alpha is 0.001
+-r-squared train = 0.8512, r-squared test: 0.8533.
+-There is slight improvement in r-squared test when compared to linear regression.
+-Top 5 features defining "SalePrice" are:
+    -Fence_GdWo
+    -GarageType_N.A.
+    -YearBuilt_diff
+    -OverallCond
+    -LotFrontage
+    
+- RSS is very close for all the three models [linear regression, ridge regression and lasso regression].
+We could see that Lasso seems to be performing a little better out of the three models wrt. mse.
+Since Lasso will penalize more on the dataset and can also help in feature elimination hence we are going to consider that as my final model.
+
+- Looking at the coefficients, we could conclude that features like:
+OverallQual, GrLivArea, SaleType_New etc. have a positive impact on SalePrice.
+BldgType_Twnhs, BldgType_Duplex, Condition1_PosN have a negative impact on SalePrice.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
--python - version 3.9.13
--numpy - version 1.22.2
--pandas - version 1.4.1
--matplotlib - version 3.5.1
--seaborn - version 0.11.2
--sklearn - version 1.1.1
--statsmodels - version 0.13.2
+## Technologies Used 
+-python - version 3.9.13 <br>
+-numpy - version 1.22.2 <br>
+-pandas - version 1.4.1 <br>
+-matplotlib - version 3.5.1 <br>
+-seaborn - version 0.11.2 <br>
+-sklearn - version 1.1.1 <br>
+-statsmodels - version 0.13.2 <br>
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
