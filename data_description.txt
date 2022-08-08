@@ -496,7 +496,7 @@ MiscFeature: Miscellaneous feature not covered in other categories
 		
 MiscVal: $Value of miscellaneous feature
 
-MoSold: Month Sold (MM)
+MoSold: Month Sold (MM) 
 
 YrSold: Year Sold (YYYY)
 
