@@ -42,7 +42,7 @@ Dateset could be found here: https://github.com/rahul2july/housingpricepredictio
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- In summary, for ridge: <br>
+In summary, for ridge: <br>
 
 -the best hyperparameter alpha is 6.0 <br>
 
@@ -57,7 +57,7 @@ Dateset could be found here: https://github.com/rahul2july/housingpricepredictio
 - BsmtFinSF2 <br>
 - GrLivArea 
     
-- In summary, for lasso: <br>
+In summary, for lasso: <br>
 
 -the best hyperparameter alpha is 0.0001 <br>
 
