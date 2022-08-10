@@ -43,34 +43,32 @@ Dateset could be found here: https://github.com/rahul2july/housingpricepredictio
 
 ## Conclusions
 - In summary, for ridge: <br>
--the best hyperparameter alpha is 7.0 <br>
--r-squared train = 0.8507, r-squared test: 0.8545 <br>
--There is slight improvement in r-squared test when compared to linear regression. <br>
+-the best hyperparameter alpha is 6.0 <br>
+-r-squared train = 0.8863, r-squared test: 0.8734 <br>
+-There is improvement in r-squared test when compared to linear regression. <br>
 -Top 5 features defining "SalePrice" are: <br>
-    -Fence_GdWo <br>
-    -GarageType_N.A <br>
-    -YearBuilt_diff <br>
-    -OverallCond <br>
-    -LotFrontage <br>
+   -OverallCond <br>
+   -BsmtFullBath <br>
+   -2ndFlrSF <br>
+   -BsmtFinSF2 <br>
+   -GrLivArea 
     
 - In summary, for lasso: <br>
--the best hyperparameter alpha is 0.001 <br>
--r-squared train = 0.8512, r-squared test: 0.8533 <br>
--There is slight improvement in r-squared test when compared to linear regression. <br>
+-the best hyperparameter alpha is 0.0001 <br>
+-r-squared train = 0.8901, r-squared test: 0.8778 <br>
+-There is improvement in r-squared test when compared to linear regression. <br>
 -Top 5 features defining "SalePrice" are: <br>
-    -Fence_GdWo <br>
-    -GarageType_N.A. <br>
-    -YearBuilt_diff <br>
+    -BsmtFullBath <br>
     -OverallCond <br>
-    -LotFrontage <br>
+    -OverallQual <br>
+    -BsmtFinSF1 <br>
+    -1stFlrSF <br>
     
-- RSS is very close for all the three models [linear regression, ridge regression and lasso regression]. <br>
+    
+- RSS is very close for both the models viz. ridge regression and lasso regression. <br>
 We could see that Lasso seems to be performing a little better out of the three models wrt. mse. <br>
 Since Lasso will penalize more on the dataset and can also help in feature elimination hence we are going to consider that as my final model. <br>
 
-- Looking at the coefficients, we could conclude that features like: <br>
-OverallQual, GrLivArea, SaleType_New etc. have a positive impact on SalePrice. <br>
-BldgType_Twnhs, BldgType_Duplex, Condition1_PosN have a negative impact on SalePrice. <br>
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
