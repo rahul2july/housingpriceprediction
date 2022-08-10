@@ -73,7 +73,7 @@ In summary, for lasso: <br>
 - 1stFlrSF <br>
     
     
-- RSS is very close for both the models viz. ridge regression and lasso regression. <br>
+RSS is very close for both the models viz. ridge regression and lasso regression. <br>
 We could see that Lasso seems to be performing a little better out of the three models wrt. mse. <br>
 Since Lasso will penalize more on the dataset and can also help in feature elimination hence we are going to consider that as my final model. <br>
 
