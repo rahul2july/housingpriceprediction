@@ -43,26 +43,34 @@ Dateset could be found here: https://github.com/rahul2july/housingpricepredictio
 
 ## Conclusions
 - In summary, for ridge: <br>
+
 -the best hyperparameter alpha is 6.0 <br>
+
 -r-squared train = 0.8863, r-squared test: 0.8734 <br>
+
 -There is improvement in r-squared test when compared to linear regression. <br>
+
 -Top 5 features defining "SalePrice" are: <br>
-   -OverallCond <br>
-   -BsmtFullBath <br>
-   -2ndFlrSF <br>
-   -BsmtFinSF2 <br>
-   -GrLivArea 
+- OverallCond <br>
+- BsmtFullBath <br>
+- 2ndFlrSF <br>
+- BsmtFinSF2 <br>
+- GrLivArea 
     
 - In summary, for lasso: <br>
+
 -the best hyperparameter alpha is 0.0001 <br>
+
 -r-squared train = 0.8901, r-squared test: 0.8778 <br>
+
 -There is improvement in r-squared test when compared to linear regression. <br>
+
 -Top 5 features defining "SalePrice" are: <br>
-    -BsmtFullBath <br>
-    -OverallCond <br>
-    -OverallQual <br>
-    -BsmtFinSF1 <br>
-    -1stFlrSF <br>
+- BsmtFullBath <br>
+- OverallCond <br>
+- OverallQual <br>
+- BsmtFinSF1 <br>
+- 1stFlrSF <br>
     
     
 - RSS is very close for both the models viz. ridge regression and lasso regression. <br>
